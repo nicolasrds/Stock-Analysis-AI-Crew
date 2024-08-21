@@ -24,7 +24,7 @@ yahoo_finance_tool = Tool(
 )
 
 # IMPORTANDO OPENAI LLM - GPT
-os.environ['google_api_key']=st.secrets['google_api_key']
+os.environ['GOOGLE_API_KEY']=st.secrets['GOOGLE_API_KEY']
 llm = ChatGoogleGenerativeAI(model="gemini-1.5-pro")
 
 
